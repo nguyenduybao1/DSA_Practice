@@ -12,7 +12,7 @@ Time Complexity: O(n)
 Space Complexity: O(n)
 */
 
-lass Solution {
+class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
         for(int i = 0; i < 9; i++){
